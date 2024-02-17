@@ -1,0 +1,15 @@
+[package]
+name = "lsm-tree-io-uring"
+version = "0.1.0"
+authors = ["Cameron Elliott <cameron@cameronelliott.com>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "A lsm-tree key-value store for async-tokio and io_uring-I/O on Linux"
+homepage = "https://github.com/cameronelliott/lsm-tree-io-uring/"
+repository = "https://github.com/cameronelliott/lsm-tree-io-uring/"
+keywords = ["lsm", "lsmtree", "lsm-tree", "io_uring", "rocksdb"]
+categories = ["os::linux-apis", "algorithms", "api-bindings", "asynchronous", "database"]
+
+
+[dependencies]
+
